@@ -1,0 +1,21 @@
+/* @override http://localhost:9090/file/custom.css */
+
+/* @override http://localhost:9090/file/custom.css */
+
+body{
+  margin:0;
+  font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size:0.75em;
+  font-weight:normal;
+  color:#404040;
+}
+
+ul li ul {
+	font-size: 0.75em;
+}
+
+.content.smbullets.incremental ul li {
+	text-align: left;
+}
+
+

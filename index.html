@@ -1,0 +1,161 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <title>CoMO Rich Web - November 16h, 2011</title>
+
+  <meta name="viewport" content="width=device-width"/>
+
+  <link rel="stylesheet" href="./css/reset.css" type="text/css"/>
+  <link rel="stylesheet" href="./css/showoff.css" type="text/css"/>
+
+  <script type="text/javascript" src="./js/jquery-1.4.2.min.js"></script>
+  <script type="text/javascript" src="./js/jquery.cycle.all.js"></script>
+	<script type="text/javascript" src="./js/jquery-print.js"></script>
+  <script type="text/javascript" src="./js/jquery.batchImageLoad.js"></script>
+
+  <script type="text/javascript" src="./js/jquery.doubletap-0.1.js"></script>
+
+  <script type="text/javascript" src="./js/fg.menu.js"></script>
+  <script type="text/javascript" src="./js/showoff.js"></script>
+  <script type="text/javascript" src="./js/jTypeWriter.js"> </script>
+  <script type="text/javascript" src="./js/sh_main.min.js"></script>
+  <script type="text/javascript" src="./js/core.js"></script>
+  <script type="text/javascript" src="./js/showoffcore.js"></script>
+  <script type="text/javascript" src="./js/coffee-script.js"></script>
+
+  <link type="text/css" href="./css/fg.menu.css" media="screen" rel="stylesheet" />
+  <link type="text/css" href="./css/theme/ui.all.css" media="screen" rel="stylesheet" />
+  <link type="text/css" href="./css/sh_style.css" rel="stylesheet" >
+
+  
+    <link rel="stylesheet" href="file/custom.css" type="text/css"/>
+  
+
+  
+
+  <script type="text/javascript">
+  $(function(){
+      setupPreso(false, './');
+  });
+  </script>
+
+</head>
+
+<body>
+
+<a tabindex="0" href="#search-engines" class="fg-button fg-button-icon-right ui-widget ui-state-default ui-corner-all" id="navmenu"><span class="ui-icon ui-icon-triangle-1-s"></span>slides</a>
+<div id="navigation" class="hidden"></div>
+
+<div id="help">
+  <table>
+    <tr><td class="key">z, ?</td><td>toggle help (this)</td></tr>
+    <tr><td class="key">space, &rarr;</td><td>next slide</td></tr>
+    <tr><td class="key">shift-space, &larr;</td><td>previous slide</td></tr>
+    <tr><td class="key">d</td><td>toggle debug mode</td></tr>
+    <tr><td class="key">## &lt;ret&gt;</td><td>go to slide #</td></tr>
+    <tr><td class="key">c, t</td><td>table of contents (vi)</td></tr>
+    <tr><td class="key">f</td><td>toggle footer</td></tr>
+    <tr><td class="key">r</td><td>reload slides</td></tr>
+    <tr><td class="key">n</td><td>toggle notes</td></tr>
+    <tr><td class="key">p</td><td>run preshow</td></tr>
+  </table>
+</div>
+
+<div class="buttonNav">
+  <input type="submit" onClick="prevStep();" value="prev"/>
+  <input type="submit" onClick="nextStep();" value="next"/>
+</div>
+
+<div id="preso">loading presentation...</div>
+<div id="footer">
+  <span id="slideInfo"></span>
+  <span id="debugInfo"></span>
+  <span id="notesInfo"></span>
+</div>
+
+<div id="slides" class="offscreen" style="display:none;">
+<div class="slide" data-transition="none"><div class="content" ref="intro/01_slide">
+<h1>Welcome to CoMO Rich Web!</h1>
+
+<h2>November 16th, 2011</h2></div>
+</div><div class="slide" data-transition="none"><div class="content" ref="intro/02_line_up/1">
+<h1>Tonight's Line Up</h1></div>
+</div><div class="slide" data-transition="none"><div class="content" ref="intro/02_line_up/2">
+<h1>Tonight's Line Up</h1>
+
+<ul>
+<li>Brian Grinstead
+
+<ul>
+<li>Browser Devtools: Why Not?</li>
+</ul>
+</li>
+<li>Luke Daffron
+
+<ul>
+<li>.NET:  How I learned to stop worrying and love the Ballmer</li>
+</ul>
+</li>
+</ul>
+</div>
+</div><div class="slide" data-transition="none"><div class="content" ref="announcements/01_jobs/1">
+<h1>Announcements</h1></div>
+</div><div class="slide" data-transition="none"><div class="content smbullets incremental" ref="announcements/01_jobs/2">
+<h1>Jobs!</h1>
+
+<ul>
+<li>CramerDev: (1 Developer, 1 Designer)</li>
+<li>Surety Bonds: Developer</li>
+<li>CoMO Rich Web: Presenters! (<em>This is a job I assure you</em>)</li>
+<li>CoMO Rich Web: Topics! (<em>y u no email topics?</em>)</li>
+</ul>
+</div>
+</div><div class="slide" data-transition="none"><div class="content smbullets incremental" ref="announcements/02_miscellaneous/1">
+<h1>Other Happenings</h1>
+
+<ul>
+<li>Shark Tank - Parallel marches on</li>
+<li>New Co-Working group, #como-co-work, is totally awesome</li>
+<li>December Hack-a-thon</li>
+</ul>
+</div>
+</div><div class="slide" data-transition="none"><div class="content smbullets incremental shame" ref="announcements/02_miscellaneous/2">
+<h1>Marketing</h1>
+
+<ul>
+<li>Got on library's list of groups</li>
+<li>Web presence enhancements planned</li>
+<li>Reaching out to MU Web Dev Group</li>
+<li>Reaching out to MU Web Students</li>
+<li>Shaming companies to send people</li>
+</ul>
+</div>
+</div><div class="slide" data-transition="none"><div class="content smbullets incremental" ref="announcements/03_upcomming">
+<h1>Upcoming</h1>
+
+<ul>
+<li>Winter Social - December</li>
+<li>January - RabbitMQ and Gearman</li>
+</ul>
+</div>
+</div><div class="slide" data-transition="none"><div class="content" ref="gogogo/01_boot/1">
+<h1>glfh</h1></div>
+</div><div class="slide" data-transition="none"><div class="content" ref="gogogo/01_boot/2">
+<h1>./presentation</h1>
+
+<ul>
+<li>Brian Grinstead
+
+<ul>
+<li>Chrome Developer Tools</li>
+</ul>
+</li>
+</ul>
+</div>
+</div></div>
+
+</body>
+</html>

@@ -19,6 +19,12 @@
 * December Hack-a-thon
 
 !SLIDE bullets incremental
+# Marketing #
+* On library's list of groups
+* MU Web Dev Group
+* Other Ideas?
+
+!SLIDE bullets incremental
 # Upcoming #
 * Winter Social - December
 * January - RabbitMQ and Gearman

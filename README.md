@@ -1,6 +1,6 @@
-# Announcements
+# November Meet up Announcements
 
-This is a template repo to be forked for each monthly meet up of the [CoMO Rich Web Group][1]. The intent is to standardize the layout, format, and styling for each meet up.
+This is the first pass at the first structured Announcements slides for [CoMO Rich Web Group][1] monthly meet up. Shit here is raw, yo, so watch your step.
 
 
 

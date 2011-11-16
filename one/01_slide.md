@@ -1,9 +1,31 @@
 !SLIDE 
-# My Presentation #
+# ComoRichWeb #
+## 11/16/2011 ##
+
+!SLIDE
+# Announcements #
+
 
 !SLIDE bullets incremental
-# Bullet Points #
+# Devs Wanted! #
+* Cramer Dev (1 Developer, 1 Designer)
+* Surety Bonds 
+* Others?
 
-* first point
-* second point
-* third point
+!SLIDE bullets incremental
+# Other Happenings #
+* Shark Tank
+* New Co-Working group (#como-co-work)
+* December Hack-a-thon
+
+!SLIDE bullets incremental
+# Upcoming #
+* Winter Social - December
+* January - RabbitMQ and Gearman
+
+!SLIDE 
+# Tonight #
+* Chrome Developer Tools
+  * Brian Grinstead
+* C#
+  * Luke Daffron

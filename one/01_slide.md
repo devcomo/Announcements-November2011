@@ -8,7 +8,7 @@
 
 !SLIDE bullets incremental
 # Devs Wanted! #
-* Cramer Dev (1 Developer, 1 Designer)
+* CramerDev (1 Developer, 1 Designer)
 * Surety Bonds 
 * Others?
 
@@ -31,7 +31,7 @@
 
 !SLIDE 
 # Tonight #
-* Chrome Developer Tools
-  * Brian Grinstead
-* C#
-  * Luke Daffron
+* Brian Grinstead  
+  * Chrome Developer Tools
+* Luke Daffron  
+  * C#

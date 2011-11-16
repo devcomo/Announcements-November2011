@@ -1,0 +1,15 @@
+/* @override http://localhost:9090/file/custom.css */
+
+body{
+  margin:0;
+  font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size:13px;
+  font-weight:normal;
+  line-height:24px;
+  color:#404040;
+}
+
+h1 {
+	position: relative;
+	top: 0px;
+}
